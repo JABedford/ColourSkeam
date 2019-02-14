@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import Header from '../comps/Header';
+import Header from '../components/Header';
+import Layout from '../components/MyLayout'
 
 export default () => (
-    <div>
-        <Header />
+    <Layout>
         <p>This is an about page.</p>
-    </div>
+    </Layout>
 )
